@@ -6,11 +6,6 @@
 #include <limits>
 #include <cstdint>
 
-/*
-By listing the first six prime numbers: 2, 3, 5, 7, 11 and 13, we can see that the 6th prime is 13.
-What is the 10,001st prime number?
-*/
-
 namespace func {
     bool is_prime(int64_t n) {
         //Checks if a single signed 64-bit integer is a prime number.
